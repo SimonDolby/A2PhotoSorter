@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="7495fc37-2c1c-4fd2-b276-c44b07fc4739" name="sdolby15@DL3804 2017-02-09 12:20:41" runUser="DL3804\sdolby15" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="56e0698d-10ba-4e00-8f16-8d755282be94">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="sdolby15_DL3804 2017-02-09 12_20_41">
+      <DeploymentItem filename="F:\SimonDolbyA2ProjectPhotoSorter\Unit Tests For Computing Project\ExifWorks.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2017-02-09T12:20:41.3431476+00:00" queuing="2017-02-09T12:20:41.3951476+00:00" start="2017-02-09T12:20:41.3981476+00:00" finish="2017-02-09T12:20:51.0137476+00:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="SimpleEdgeDetectionImage" storage="f:\simondolbya2projectphotosorter\unit tests for computing project\unit tests for computing project\bin\debug\unit tests for computing project.dll" id="1bc707db-1076-7e5e-2590-df460a58a14c">
+      <Execution id="1b4db002-088b-4fa4-b7a0-a8f464754b8c" />
+      <TestMethod codeBase="F:/SimonDolbyA2ProjectPhotoSorter/Unit Tests For Computing Project/Unit Tests For Computing Project/bin/Debug/Unit Tests For Computing Project.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Unit_Tests_For_Computing_Project.ConvolutionTests, Unit Tests For Computing Project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SimpleEdgeDetectionImage" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="1bc707db-1076-7e5e-2590-df460a58a14c" executionId="1b4db002-088b-4fa4-b7a0-a8f464754b8c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="1b4db002-088b-4fa4-b7a0-a8f464754b8c" testId="1bc707db-1076-7e5e-2590-df460a58a14c" testName="SimpleEdgeDetectionImage" computerName="DL3804" duration="00:00:09.4243144" startTime="2017-02-09T12:20:41.4061476+00:00" endTime="2017-02-09T12:20:50.9727476+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1b4db002-088b-4fa4-b7a0-a8f464754b8c">
+    </UnitTestResult>
+  </Results>
+</TestRun>

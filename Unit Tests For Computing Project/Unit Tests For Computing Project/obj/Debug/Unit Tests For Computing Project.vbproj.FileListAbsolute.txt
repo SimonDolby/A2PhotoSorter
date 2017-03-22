@@ -1,0 +1,16 @@
+F:\SimonDolbyA2ProjectPhotoSorter\Unit Tests For Computing Project\Unit Tests For Computing Project\obj\Debug\Unit Tests For Computing Project.vbprojResolveAssemblyReference.cache
+F:\SimonDolbyA2ProjectPhotoSorter\Unit Tests For Computing Project\Unit Tests For Computing Project\bin\Debug\Unit Tests For Computing Project.dll
+F:\SimonDolbyA2ProjectPhotoSorter\Unit Tests For Computing Project\Unit Tests For Computing Project\bin\Debug\Unit Tests For Computing Project.pdb
+F:\SimonDolbyA2ProjectPhotoSorter\Unit Tests For Computing Project\Unit Tests For Computing Project\bin\Debug\Unit Tests For Computing Project.xml
+F:\SimonDolbyA2ProjectPhotoSorter\Unit Tests For Computing Project\Unit Tests For Computing Project\bin\Debug\ExifWorks.dll
+F:\SimonDolbyA2ProjectPhotoSorter\Unit Tests For Computing Project\Unit Tests For Computing Project\obj\Debug\Unit Tests For Computing Project.dll
+F:\SimonDolbyA2ProjectPhotoSorter\Unit Tests For Computing Project\Unit Tests For Computing Project\obj\Debug\Unit Tests For Computing Project.xml
+F:\SimonDolbyA2ProjectPhotoSorter\Unit Tests For Computing Project\Unit Tests For Computing Project\obj\Debug\Unit Tests For Computing Project.pdb
+C:\Users\Simon\Documents\SimonDolbyA2ProjectPhotoSorter\Unit Tests For Computing Project\Unit Tests For Computing Project\bin\Debug\Unit Tests For Computing Project.dll
+C:\Users\Simon\Documents\SimonDolbyA2ProjectPhotoSorter\Unit Tests For Computing Project\Unit Tests For Computing Project\bin\Debug\Unit Tests For Computing Project.pdb
+C:\Users\Simon\Documents\SimonDolbyA2ProjectPhotoSorter\Unit Tests For Computing Project\Unit Tests For Computing Project\bin\Debug\Unit Tests For Computing Project.xml
+C:\Users\Simon\Documents\SimonDolbyA2ProjectPhotoSorter\Unit Tests For Computing Project\Unit Tests For Computing Project\bin\Debug\ExifWorks.dll
+C:\Users\Simon\Documents\SimonDolbyA2ProjectPhotoSorter\Unit Tests For Computing Project\Unit Tests For Computing Project\obj\Debug\Unit Tests For Computing Project.vbprojResolveAssemblyReference.cache
+C:\Users\Simon\Documents\SimonDolbyA2ProjectPhotoSorter\Unit Tests For Computing Project\Unit Tests For Computing Project\obj\Debug\Unit Tests For Computing Project.dll
+C:\Users\Simon\Documents\SimonDolbyA2ProjectPhotoSorter\Unit Tests For Computing Project\Unit Tests For Computing Project\obj\Debug\Unit Tests For Computing Project.xml
+C:\Users\Simon\Documents\SimonDolbyA2ProjectPhotoSorter\Unit Tests For Computing Project\Unit Tests For Computing Project\obj\Debug\Unit Tests For Computing Project.pdb

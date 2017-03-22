@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="13c60ab2-4efc-40b7-b5a7-0048e2165117" name="sdolby15@DL3293 2017-02-06 09:51:56" runUser="DL3293\sdolby15" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="56e0698d-10ba-4e00-8f16-8d755282be94">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="sdolby15_DL3293 2017-02-06 09_51_56">
+      <DeploymentItem filename="F:\SimonDolbyA2ProjectPhotoSorter\Unit Tests For Computing Project\ExifWorks.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2017-02-06T09:51:56.8315844+00:00" queuing="2017-02-06T09:51:57.3995844+00:00" start="2017-02-06T09:51:57.4395844+00:00" finish="2017-02-06T09:52:27.4453844+00:00" />
+  <ResultSummary outcome="Error">
+    <Counters total="10" executed="9" passed="8" error="0" failed="0" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="1" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="DL3293" outcome="Error" timestamp="2017-02-06T09:52:27.4443844+00:00">
+        <Text>Test host process exited unexpectedly.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="RGBTOBGR" storage="f:\simondolbya2projectphotosorter\unit tests for computing project\unit tests for computing project\bin\debug\unit tests for computing project.dll" id="1916295b-38ad-3f87-2954-8a4b31038470">
+      <Execution id="8cb10452-e8aa-48d0-9615-605b808b294c" />
+      <TestMethod codeBase="F:/SimonDolbyA2ProjectPhotoSorter/Unit Tests For Computing Project/Unit Tests For Computing Project/bin/Debug/Unit Tests For Computing Project.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Unit_Tests_For_Computing_Project.ImageManipulation, Unit Tests For Computing Project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="RGBTOBGR" />
+    </UnitTest>
+    <UnitTest name="PolaroidColors" storage="f:\simondolbya2projectphotosorter\unit tests for computing project\unit tests for computing project\bin\debug\unit tests for computing project.dll" id="3804649f-757c-e169-2e7f-cc167f0d2d4f">
+      <Execution id="fbdba723-4560-4de5-b056-24ee9f1c8fe9" />
+      <TestMethod codeBase="F:/SimonDolbyA2ProjectPhotoSorter/Unit Tests For Computing Project/Unit Tests For Computing Project/bin/Debug/Unit Tests For Computing Project.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Unit_Tests_For_Computing_Project.ImageManipulation, Unit Tests For Computing Project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="PolaroidColors" />
+    </UnitTest>
+    <UnitTest name="BulkAddTags" storage="f:\simondolbya2projectphotosorter\unit tests for computing project\unit tests for computing project\bin\debug\unit tests for computing project.dll" id="956719e8-a5de-f1b4-d6ec-2bdc6cb8a576">
+      <Execution id="e816d0f6-3163-4b10-884d-267447a86efa" />
+      <TestMethod codeBase="F:/SimonDolbyA2ProjectPhotoSorter/Unit Tests For Computing Project/Unit Tests For Computing Project/bin/Debug/Unit Tests For Computing Project.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Unit_Tests_For_Computing_Project.MetaDataTests, Unit Tests For Computing Project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="BulkAddTags" />
+    </UnitTest>
+    <UnitTest name="ContrastBy50" storage="f:\simondolbya2projectphotosorter\unit tests for computing project\unit tests for computing project\bin\debug\unit tests for computing project.dll" id="e2f6d0b7-2699-7fe5-916f-6cb7a0a49ed2">
+      <Execution id="e02f7a74-670a-490f-83c0-1ebdcbcfe373" />
+      <TestMethod codeBase="F:/SimonDolbyA2ProjectPhotoSorter/Unit Tests For Computing Project/Unit Tests For Computing Project/bin/Debug/Unit Tests For Computing Project.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Unit_Tests_For_Computing_Project.ImageManipulation, Unit Tests For Computing Project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ContrastBy50" />
+    </UnitTest>
+    <UnitTest name="BlackAndWhite" storage="f:\simondolbya2projectphotosorter\unit tests for computing project\unit tests for computing project\bin\debug\unit tests for computing project.dll" id="c76b2eda-0781-b8ce-67a0-620b1009c165">
+      <Execution id="e0fd34fa-8600-43df-a844-8a9e91b62673" />
+      <TestMethod codeBase="F:/SimonDolbyA2ProjectPhotoSorter/Unit Tests For Computing Project/Unit Tests For Computing Project/bin/Debug/Unit Tests For Computing Project.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Unit_Tests_For_Computing_Project.ImageManipulation, Unit Tests For Computing Project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="BlackAndWhite" />
+    </UnitTest>
+    <UnitTest name="BulkSortByDate" storage="f:\simondolbya2projectphotosorter\unit tests for computing project\unit tests for computing project\bin\debug\unit tests for computing project.dll" id="8f386137-e9c7-eb9d-abb3-45fa87475ec6">
+      <Execution id="7f0284ba-0678-4a37-955d-25cc80cb37c8" />
+      <TestMethod codeBase="F:/SimonDolbyA2ProjectPhotoSorter/Unit Tests For Computing Project/Unit Tests For Computing Project/bin/Debug/Unit Tests For Computing Project.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Unit_Tests_For_Computing_Project.MetaDataTests, Unit Tests For Computing Project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="BulkSortByDate" />
+    </UnitTest>
+    <UnitTest name="Grayscale" storage="f:\simondolbya2projectphotosorter\unit tests for computing project\unit tests for computing project\bin\debug\unit tests for computing project.dll" id="c4b3e335-4257-e746-ff7a-01f5b1232f49">
+      <Execution id="c5922a5f-8876-4e49-8104-6ef5cf6be876" />
+      <TestMethod codeBase="F:/SimonDolbyA2ProjectPhotoSorter/Unit Tests For Computing Project/Unit Tests For Computing Project/bin/Debug/Unit Tests For Computing Project.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Unit_Tests_For_Computing_Project.ImageManipulation, Unit Tests For Computing Project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Grayscale" />
+    </UnitTest>
+    <UnitTest name="SaturationBy50" storage="f:\simondolbya2projectphotosorter\unit tests for computing project\unit tests for computing project\bin\debug\unit tests for computing project.dll" id="4a425653-2c29-4812-e390-ffd37b7dbb03">
+      <Execution id="41b898bb-37c2-4e62-8b23-68de10cd4dd7" />
+      <TestMethod codeBase="F:/SimonDolbyA2ProjectPhotoSorter/Unit Tests For Computing Project/Unit Tests For Computing Project/bin/Debug/Unit Tests For Computing Project.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Unit_Tests_For_Computing_Project.ImageManipulation, Unit Tests For Computing Project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SaturationBy50" />
+    </UnitTest>
+    <UnitTest name="SetSepia" storage="f:\simondolbya2projectphotosorter\unit tests for computing project\unit tests for computing project\bin\debug\unit tests for computing project.dll" id="31ab8f06-f213-a8ee-9894-61340a539892">
+      <Execution id="c6c3ad52-39c5-4dc4-83db-8503faaf2d6c" />
+      <TestMethod codeBase="F:/SimonDolbyA2ProjectPhotoSorter/Unit Tests For Computing Project/Unit Tests For Computing Project/bin/Debug/Unit Tests For Computing Project.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Unit_Tests_For_Computing_Project.ImageManipulation, Unit Tests For Computing Project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SetSepia" />
+    </UnitTest>
+    <UnitTest name="InvertColors" storage="f:\simondolbya2projectphotosorter\unit tests for computing project\unit tests for computing project\bin\debug\unit tests for computing project.dll" id="906463fa-1473-b08f-65ba-3e3bcf0a4d56">
+      <Execution id="5475ad40-65cd-4495-ac74-3d402b09856f" />
+      <TestMethod codeBase="F:/SimonDolbyA2ProjectPhotoSorter/Unit Tests For Computing Project/Unit Tests For Computing Project/bin/Debug/Unit Tests For Computing Project.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Unit_Tests_For_Computing_Project.ImageManipulation, Unit Tests For Computing Project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="InvertColors" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="31ab8f06-f213-a8ee-9894-61340a539892" executionId="c6c3ad52-39c5-4dc4-83db-8503faaf2d6c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="906463fa-1473-b08f-65ba-3e3bcf0a4d56" executionId="5475ad40-65cd-4495-ac74-3d402b09856f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3804649f-757c-e169-2e7f-cc167f0d2d4f" executionId="fbdba723-4560-4de5-b056-24ee9f1c8fe9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4a425653-2c29-4812-e390-ffd37b7dbb03" executionId="41b898bb-37c2-4e62-8b23-68de10cd4dd7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e2f6d0b7-2699-7fe5-916f-6cb7a0a49ed2" executionId="e02f7a74-670a-490f-83c0-1ebdcbcfe373" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c76b2eda-0781-b8ce-67a0-620b1009c165" executionId="e0fd34fa-8600-43df-a844-8a9e91b62673" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c4b3e335-4257-e746-ff7a-01f5b1232f49" executionId="c5922a5f-8876-4e49-8104-6ef5cf6be876" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1916295b-38ad-3f87-2954-8a4b31038470" executionId="8cb10452-e8aa-48d0-9615-605b808b294c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="956719e8-a5de-f1b4-d6ec-2bdc6cb8a576" executionId="e816d0f6-3163-4b10-884d-267447a86efa" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8f386137-e9c7-eb9d-abb3-45fa87475ec6" executionId="7f0284ba-0678-4a37-955d-25cc80cb37c8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="c6c3ad52-39c5-4dc4-83db-8503faaf2d6c" testId="31ab8f06-f213-a8ee-9894-61340a539892" testName="SetSepia" computerName="DL3293" duration="00:00:02.6247169" startTime="2017-02-06T09:51:57.4655844+00:00" endTime="2017-02-06T09:52:00.6317844+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c6c3ad52-39c5-4dc4-83db-8503faaf2d6c">
+    </UnitTestResult>
+    <UnitTestResult executionId="5475ad40-65cd-4495-ac74-3d402b09856f" testId="906463fa-1473-b08f-65ba-3e3bcf0a4d56" testName="InvertColors" computerName="DL3293" duration="00:00:04.9171379" startTime="2017-02-06T09:52:00.6367844+00:00" endTime="2017-02-06T09:52:05.5601616+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5475ad40-65cd-4495-ac74-3d402b09856f">
+    </UnitTestResult>
+    <UnitTestResult executionId="fbdba723-4560-4de5-b056-24ee9f1c8fe9" testId="3804649f-757c-e169-2e7f-cc167f0d2d4f" testName="PolaroidColors" computerName="DL3293" duration="00:00:06.1341483" startTime="2017-02-06T09:52:05.5651626+00:00" endTime="2017-02-06T09:52:11.7053906+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fbdba723-4560-4de5-b056-24ee9f1c8fe9">
+    </UnitTestResult>
+    <UnitTestResult executionId="41b898bb-37c2-4e62-8b23-68de10cd4dd7" testId="4a425653-2c29-4812-e390-ffd37b7dbb03" testName="SaturationBy50" computerName="DL3293" duration="00:00:05.5539228" startTime="2017-02-06T09:52:11.7103916+00:00" endTime="2017-02-06T09:52:17.2707844+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="41b898bb-37c2-4e62-8b23-68de10cd4dd7">
+    </UnitTestResult>
+    <UnitTestResult executionId="e02f7a74-670a-490f-83c0-1ebdcbcfe373" testId="e2f6d0b7-2699-7fe5-916f-6cb7a0a49ed2" testName="ContrastBy50" computerName="DL3293" duration="00:00:03.1674919" startTime="2017-02-06T09:52:17.2827844+00:00" endTime="2017-02-06T09:52:20.4589844+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e02f7a74-670a-490f-83c0-1ebdcbcfe373">
+    </UnitTestResult>
+    <UnitTestResult executionId="e0fd34fa-8600-43df-a844-8a9e91b62673" testId="c76b2eda-0781-b8ce-67a0-620b1009c165" testName="BlackAndWhite" computerName="DL3293" duration="00:00:01.4545346" startTime="2017-02-06T09:52:20.4629844+00:00" endTime="2017-02-06T09:52:21.9241844+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e0fd34fa-8600-43df-a844-8a9e91b62673">
+    </UnitTestResult>
+    <UnitTestResult executionId="c5922a5f-8876-4e49-8104-6ef5cf6be876" testId="c4b3e335-4257-e746-ff7a-01f5b1232f49" testName="Grayscale" computerName="DL3293" duration="00:00:01.7946249" startTime="2017-02-06T09:52:21.9281844+00:00" endTime="2017-02-06T09:52:23.7291954+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c5922a5f-8876-4e49-8104-6ef5cf6be876">
+    </UnitTestResult>
+    <UnitTestResult executionId="8cb10452-e8aa-48d0-9615-605b808b294c" testId="1916295b-38ad-3f87-2954-8a4b31038470" testName="RGBTOBGR" computerName="DL3293" duration="00:00:03.2606150" startTime="2017-02-06T09:52:23.7341964+00:00" endTime="2017-02-06T09:52:27.0003844+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8cb10452-e8aa-48d0-9615-605b808b294c">
+    </UnitTestResult>
+    <UnitTestResult executionId="e816d0f6-3163-4b10-884d-267447a86efa" testId="956719e8-a5de-f1b4-d6ec-2bdc6cb8a576" testName="BulkAddTags" computerName="DL3293" duration="00:00:00.4400000" startTime="2017-02-06T09:52:27.0053844+00:00" endTime="2017-02-06T09:52:27.4453844+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e816d0f6-3163-4b10-884d-267447a86efa">
+    </UnitTestResult>
+    <UnitTestResult executionId="7f0284ba-0678-4a37-955d-25cc80cb37c8" testId="8f386137-e9c7-eb9d-abb3-45fa87475ec6" testName="BulkSortByDate" computerName="DL3293" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7f0284ba-0678-4a37-955d-25cc80cb37c8">
+    </UnitTestResult>
+  </Results>
+</TestRun>

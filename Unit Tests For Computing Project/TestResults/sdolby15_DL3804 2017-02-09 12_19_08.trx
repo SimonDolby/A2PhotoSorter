@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="4a09e2d9-9d98-44ba-a28e-7fb93e8e7d1b" name="sdolby15@DL3804 2017-02-09 12:19:08" runUser="DL3804\sdolby15" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="56e0698d-10ba-4e00-8f16-8d755282be94">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="sdolby15_DL3804 2017-02-09 12_19_08">
+      <DeploymentItem filename="F:\SimonDolbyA2ProjectPhotoSorter\Unit Tests For Computing Project\ExifWorks.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2017-02-09T12:19:08.6090924+00:00" queuing="2017-02-09T12:19:08.6541014+00:00" start="2017-02-09T12:19:08.6581022+00:00" finish="2017-02-09T12:19:29.9335478+00:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="3" executed="3" passed="2" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="EmbossImage" storage="f:\simondolbya2projectphotosorter\unit tests for computing project\unit tests for computing project\bin\debug\unit tests for computing project.dll" id="bd6fb448-431c-cc6d-7efb-e532d7d801bb">
+      <Execution id="f81e27c5-ea53-483d-b203-d8f9f18ce95a" />
+      <TestMethod codeBase="F:/SimonDolbyA2ProjectPhotoSorter/Unit Tests For Computing Project/Unit Tests For Computing Project/bin/Debug/Unit Tests For Computing Project.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Unit_Tests_For_Computing_Project.ConvolutionTests, Unit Tests For Computing Project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="EmbossImage" />
+    </UnitTest>
+    <UnitTest name="SimpleEdgeDetectionImage" storage="f:\simondolbya2projectphotosorter\unit tests for computing project\unit tests for computing project\bin\debug\unit tests for computing project.dll" id="1bc707db-1076-7e5e-2590-df460a58a14c">
+      <Execution id="cd740bce-9f85-4557-8d7c-7dab7a0cf7dd" />
+      <TestMethod codeBase="F:/SimonDolbyA2ProjectPhotoSorter/Unit Tests For Computing Project/Unit Tests For Computing Project/bin/Debug/Unit Tests For Computing Project.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Unit_Tests_For_Computing_Project.ConvolutionTests, Unit Tests For Computing Project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SimpleEdgeDetectionImage" />
+    </UnitTest>
+    <UnitTest name="SharpenImage" storage="f:\simondolbya2projectphotosorter\unit tests for computing project\unit tests for computing project\bin\debug\unit tests for computing project.dll" id="f11cd6ce-bf20-1379-a7b3-c76703f15db0">
+      <Execution id="063eb201-e1eb-457e-8ff0-93dc2bfd919f" />
+      <TestMethod codeBase="F:/SimonDolbyA2ProjectPhotoSorter/Unit Tests For Computing Project/Unit Tests For Computing Project/bin/Debug/Unit Tests For Computing Project.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Unit_Tests_For_Computing_Project.ConvolutionTests, Unit Tests For Computing Project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SharpenImage" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="1bc707db-1076-7e5e-2590-df460a58a14c" executionId="cd740bce-9f85-4557-8d7c-7dab7a0cf7dd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bd6fb448-431c-cc6d-7efb-e532d7d801bb" executionId="f81e27c5-ea53-483d-b203-d8f9f18ce95a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f11cd6ce-bf20-1379-a7b3-c76703f15db0" executionId="063eb201-e1eb-457e-8ff0-93dc2bfd919f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="cd740bce-9f85-4557-8d7c-7dab7a0cf7dd" testId="1bc707db-1076-7e5e-2590-df460a58a14c" testName="SimpleEdgeDetectionImage" computerName="DL3804" duration="00:00:00.4669660" startTime="2017-02-09T12:19:08.6701046+00:00" endTime="2017-02-09T12:19:09.3051478+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cd740bce-9f85-4557-8d7c-7dab7a0cf7dd">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method Unit_Tests_For_Computing_Project.ConvolutionTests.SimpleEdgeDetectionImage threw exception: 
+System.AggregateException: One or more errors occurred. ---&gt; System.OverflowException: Arithmetic operation resulted in an overflow.</Message>
+          <StackTrace>    at Unit_Tests_For_Computing_Project.ConvolutionTests._Closure$__1._Closure$__2._Lambda$__2(Int64 i) in F:\SimonDolbyA2ProjectPhotoSorter\Unit Tests For Computing Project\Unit Tests For Computing Project\ConvolutionTests.vb:line 110
+   at Unit_Tests_For_Computing_Project.ConvolutionTests._Closure$__1._Closure$__2._Lambda$__1(Int64 a0) in F:\SimonDolbyA2ProjectPhotoSorter\Unit Tests For Computing Project\Unit Tests For Computing Project\ConvolutionTests.vb:line 104
+   at System.Threading.Tasks.Parallel.&lt;&gt;c__DisplayClass18_0`1.&lt;ForWorker64&gt;b__1()
+   at System.Threading.Tasks.Task.InnerInvoke()
+   at System.Threading.Tasks.Task.InnerInvokeWithArg(Task childTask)
+   at System.Threading.Tasks.Task.&lt;&gt;c__DisplayClass176_0.&lt;ExecuteSelfReplicating&gt;b__0(Object )
+ --- End of inner exception stack trace ---
+    at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   at System.Threading.Tasks.Task.Wait()
+   at System.Threading.Tasks.Parallel.ForWorker64[TLocal](Int64 fromInclusive, Int64 toExclusive, ParallelOptions parallelOptions, Action`1 body, Action`2 bodyWithState, Func`4 bodyWithLocal, Func`1 localInit, Action`1 localFinally)
+   at System.Threading.Tasks.Parallel.For(Int64 fromInclusive, Int64 toExclusive, Action`1 body)
+   at Unit_Tests_For_Computing_Project.ConvolutionTests.ConvolutionFilter(Bitmap sourceBitmap, Double[,] filterMatrix, Double factor, Int32 bias, Boolean grayscale) in F:\SimonDolbyA2ProjectPhotoSorter\Unit Tests For Computing Project\Unit Tests For Computing Project\ConvolutionTests.vb:line 104
+   at Unit_Tests_For_Computing_Project.ConvolutionTests.GetSimpleEdgeDetect(Bitmap sourceBitmap, Int32 bias, Boolean grayscale, Boolean mono, Int32 medianFilterSize) in F:\SimonDolbyA2ProjectPhotoSorter\Unit Tests For Computing Project\Unit Tests For Computing Project\ConvolutionTests.vb:line 69
+   at Unit_Tests_For_Computing_Project.ConvolutionTests.SimpleEdgeDetectionImage() in F:\SimonDolbyA2ProjectPhotoSorter\Unit Tests For Computing Project\Unit Tests For Computing Project\ConvolutionTests.vb:line 239
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="f81e27c5-ea53-483d-b203-d8f9f18ce95a" testId="bd6fb448-431c-cc6d-7efb-e532d7d801bb" testName="EmbossImage" computerName="DL3804" duration="00:00:12.3500827" startTime="2017-02-09T12:19:09.3101478+00:00" endTime="2017-02-09T12:19:21.6629478+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f81e27c5-ea53-483d-b203-d8f9f18ce95a">
+    </UnitTestResult>
+    <UnitTestResult executionId="063eb201-e1eb-457e-8ff0-93dc2bfd919f" testId="f11cd6ce-bf20-1379-a7b3-c76703f15db0" testName="SharpenImage" computerName="DL3804" duration="00:00:08.2324327" startTime="2017-02-09T12:19:21.6679478+00:00" endTime="2017-02-09T12:19:29.9035478+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="063eb201-e1eb-457e-8ff0-93dc2bfd919f">
+    </UnitTestResult>
+  </Results>
+</TestRun>

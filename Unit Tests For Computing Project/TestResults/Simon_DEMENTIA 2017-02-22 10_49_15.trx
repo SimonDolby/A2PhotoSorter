@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="e392a649-95c8-425e-8338-cd7ce7df7f4d" name="Simon@DEMENTIA 2017-02-22 10:49:15" runUser="Dementia\Simon" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="56e0698d-10ba-4e00-8f16-8d755282be94">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Simon_DEMENTIA 2017-02-22 10_49_15">
+      <DeploymentItem filename="C:\Users\Simon\Documents\SimonDolbyA2ProjectPhotoSorter\Unit Tests For Computing Project\ExifWorks.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2017-02-22T10:49:15.5175220+00:00" queuing="2017-02-22T10:49:19.4664546+00:00" start="2017-02-22T10:49:19.5806781+00:00" finish="2017-02-22T10:49:22.2484882+00:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="BulkAddTags" storage="c:\users\simon\documents\simondolbya2projectphotosorter\unit tests for computing project\unit tests for computing project\bin\debug\unit tests for computing project.dll" id="956719e8-a5de-f1b4-d6ec-2bdc6cb8a576">
+      <Execution id="6d10c10a-5c95-4f1c-9dd0-ac089db4e870" />
+      <TestMethod codeBase="C:/Users/Simon/Documents/SimonDolbyA2ProjectPhotoSorter/Unit Tests For Computing Project/Unit Tests For Computing Project/bin/Debug/Unit Tests For Computing Project.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Unit_Tests_For_Computing_Project.MetaDataTests, Unit Tests For Computing Project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="BulkAddTags" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="956719e8-a5de-f1b4-d6ec-2bdc6cb8a576" executionId="6d10c10a-5c95-4f1c-9dd0-ac089db4e870" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="6d10c10a-5c95-4f1c-9dd0-ac089db4e870" testId="956719e8-a5de-f1b4-d6ec-2bdc6cb8a576" testName="BulkAddTags" computerName="DEMENTIA" duration="00:00:01.5654946" startTime="2017-02-22T10:49:19.7351984+00:00" endTime="2017-02-22T10:49:22.1094704+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6d10c10a-5c95-4f1c-9dd0-ac089db4e870">
+    </UnitTestResult>
+  </Results>
+</TestRun>

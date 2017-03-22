@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="0e7fc4c2-1f95-48b6-b10d-01b55576dfd2" name="sdolby15@DL3804 2017-02-09 12:19:37" runUser="DL3804\sdolby15" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="56e0698d-10ba-4e00-8f16-8d755282be94">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="sdolby15_DL3804 2017-02-09 12_19_37">
+      <DeploymentItem filename="F:\SimonDolbyA2ProjectPhotoSorter\Unit Tests For Computing Project\ExifWorks.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2017-02-09T12:19:37.2609478+00:00" queuing="2017-02-09T12:19:37.3109478+00:00" start="2017-02-09T12:19:37.3159478+00:00" finish="2017-02-09T12:19:37.8159478+00:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="SimpleEdgeDetectionImage" storage="f:\simondolbya2projectphotosorter\unit tests for computing project\unit tests for computing project\bin\debug\unit tests for computing project.dll" id="1bc707db-1076-7e5e-2590-df460a58a14c">
+      <Execution id="0f71a664-d765-492f-a92f-e9cf64016e5e" />
+      <TestMethod codeBase="F:/SimonDolbyA2ProjectPhotoSorter/Unit Tests For Computing Project/Unit Tests For Computing Project/bin/Debug/Unit Tests For Computing Project.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Unit_Tests_For_Computing_Project.ConvolutionTests, Unit Tests For Computing Project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SimpleEdgeDetectionImage" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="1bc707db-1076-7e5e-2590-df460a58a14c" executionId="0f71a664-d765-492f-a92f-e9cf64016e5e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="0f71a664-d765-492f-a92f-e9cf64016e5e" testId="1bc707db-1076-7e5e-2590-df460a58a14c" testName="SimpleEdgeDetectionImage" computerName="DL3804" duration="00:00:00.3152154" startTime="2017-02-09T12:19:37.3279478+00:00" endTime="2017-02-09T12:19:37.7939478+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0f71a664-d765-492f-a92f-e9cf64016e5e">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method Unit_Tests_For_Computing_Project.ConvolutionTests.SimpleEdgeDetectionImage threw exception: 
+System.AggregateException: One or more errors occurred. ---&gt; System.OverflowException: Arithmetic operation resulted in an overflow.</Message>
+          <StackTrace>    at Unit_Tests_For_Computing_Project.ConvolutionTests._Closure$__1._Closure$__2._Lambda$__2(Int64 i) in F:\SimonDolbyA2ProjectPhotoSorter\Unit Tests For Computing Project\Unit Tests For Computing Project\ConvolutionTests.vb:line 110
+   at Unit_Tests_For_Computing_Project.ConvolutionTests._Closure$__1._Closure$__2._Lambda$__1(Int64 a0) in F:\SimonDolbyA2ProjectPhotoSorter\Unit Tests For Computing Project\Unit Tests For Computing Project\ConvolutionTests.vb:line 104
+   at System.Threading.Tasks.Parallel.&lt;&gt;c__DisplayClass18_0`1.&lt;ForWorker64&gt;b__1()
+   at System.Threading.Tasks.Task.InnerInvoke()
+   at System.Threading.Tasks.Task.InnerInvokeWithArg(Task childTask)
+   at System.Threading.Tasks.Task.&lt;&gt;c__DisplayClass176_0.&lt;ExecuteSelfReplicating&gt;b__0(Object )
+ --- End of inner exception stack trace ---
+    at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   at System.Threading.Tasks.Task.Wait()
+   at System.Threading.Tasks.Parallel.ForWorker64[TLocal](Int64 fromInclusive, Int64 toExclusive, ParallelOptions parallelOptions, Action`1 body, Action`2 bodyWithState, Func`4 bodyWithLocal, Func`1 localInit, Action`1 localFinally)
+   at System.Threading.Tasks.Parallel.For(Int64 fromInclusive, Int64 toExclusive, Action`1 body)
+   at Unit_Tests_For_Computing_Project.ConvolutionTests.ConvolutionFilter(Bitmap sourceBitmap, Double[,] filterMatrix, Double factor, Int32 bias, Boolean grayscale) in F:\SimonDolbyA2ProjectPhotoSorter\Unit Tests For Computing Project\Unit Tests For Computing Project\ConvolutionTests.vb:line 104
+   at Unit_Tests_For_Computing_Project.ConvolutionTests.GetSimpleEdgeDetect(Bitmap sourceBitmap, Int32 bias, Boolean grayscale, Boolean mono, Int32 medianFilterSize) in F:\SimonDolbyA2ProjectPhotoSorter\Unit Tests For Computing Project\Unit Tests For Computing Project\ConvolutionTests.vb:line 69
+   at Unit_Tests_For_Computing_Project.ConvolutionTests.SimpleEdgeDetectionImage() in F:\SimonDolbyA2ProjectPhotoSorter\Unit Tests For Computing Project\Unit Tests For Computing Project\ConvolutionTests.vb:line 239
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

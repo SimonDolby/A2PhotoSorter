@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="08da1316-cd34-4204-a18c-84163057596c" name="Simon@DEMENTIA 2017-02-22 11:04:04" runUser="Dementia\Simon" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="56e0698d-10ba-4e00-8f16-8d755282be94">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Simon_DEMENTIA 2017-02-22 11_04_04">
+      <DeploymentItem filename="C:\Users\Simon\Documents\SimonDolbyA2ProjectPhotoSorter\Unit Tests For Computing Project\ExifWorks.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2017-02-22T11:04:04.2994723+00:00" queuing="2017-02-22T11:04:06.6393713+00:00" start="2017-02-22T11:04:06.6458719+00:00" finish="2017-02-22T11:04:47.1947997+00:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="BulkSortByDate" storage="c:\users\simon\documents\simondolbya2projectphotosorter\unit tests for computing project\unit tests for computing project\bin\debug\unit tests for computing project.dll" id="8f386137-e9c7-eb9d-abb3-45fa87475ec6">
+      <Execution id="75ff8ac1-2c15-4be7-b089-191e9dc82d40" />
+      <TestMethod codeBase="C:/Users/Simon/Documents/SimonDolbyA2ProjectPhotoSorter/Unit Tests For Computing Project/Unit Tests For Computing Project/bin/Debug/Unit Tests For Computing Project.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Unit_Tests_For_Computing_Project.MetaDataTests, Unit Tests For Computing Project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="BulkSortByDate" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="8f386137-e9c7-eb9d-abb3-45fa87475ec6" executionId="75ff8ac1-2c15-4be7-b089-191e9dc82d40" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="75ff8ac1-2c15-4be7-b089-191e9dc82d40" testId="8f386137-e9c7-eb9d-abb3-45fa87475ec6" testName="BulkSortByDate" computerName="DEMENTIA" duration="00:00:40.1763016" startTime="2017-02-22T11:04:06.6898775+00:00" endTime="2017-02-22T11:04:47.1302910+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="75ff8ac1-2c15-4be7-b089-191e9dc82d40">
+    </UnitTestResult>
+  </Results>
+</TestRun>
